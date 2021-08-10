@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Pack]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression test-Cases(failed)">
+    <classes>
+      <class name="backbase.DeleteOperation.TC01_Delete_deleteReocords">
+        <methods>
+          <include name="TC01_Delete_deleteReocords"/>
+          <include name="tearDownMethod"/>
+          <include name="setup"/>
+          <include name="tierDown"/>
+        </methods>
+      </class> <!-- backbase.DeleteOperation.TC01_Delete_deleteReocords -->
+      <class name="backbase.UpdateOperation.TC02_Update_UpdateComputerName">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="setup"/>
+          <include name="TC02_Update_UpdateComputerName"/>
+          <include name="tierDown"/>
+        </methods>
+      </class> <!-- backbase.UpdateOperation.TC02_Update_UpdateComputerName -->
+      <class name="backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="setup"/>
+          <include name="TC06_Create_CreateNewComputer_SearchCreatedEntry"/>
+          <include name="tierDown"/>
+        </methods>
+      </class> <!-- backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount -->
+    </classes>
+  </test> <!-- Regression test-Cases(failed) -->
+</suite> <!-- Failed suite [Regression Pack] -->

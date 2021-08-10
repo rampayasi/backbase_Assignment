@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Scripts Pack">
+   <listeners>
+  
+  <listener class-name="backbase.Utilties.Reporting"/>
+  </listeners>
+  
+  
+  <test thread-count="5" name="All test-Cases">  
+  	<classes>
+  		<class name = "backbase.ReadOperation.TC01_Search_UIValidation_SearchRecordTable" />
+  		<class name = "backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton" />
+  		<class name = "backbase.ReadOperation.TC03_Search_UIValidation_AddNewComputer" />
+  		<class name = "backbase.ReadOperation.TC04_Search_UIValidation_RecordCountValidation" />
+  		<class name = "backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName" />
+  		<class name = "backbase.ReadOperation.TC06_Search_UIValidation_CancelSearch" />
+  		<class name = "backbase.CreateOperation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation" />
+  		<class name = "backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly" />
+  		<class name = "backbase.CreateOperation.TC03_Create_CreateNewComputerwithAllTheField" />
+  		<class name = "backbase.CreateOperation.TC04_Create_CreateNewComputerWithoutAnyData_Error" />
+  		<class name = "backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount" />
+  		<class name = "backbase.CreateOperation.TC06_Create_CreateNewComputer_IntroDateInvalidFormat" />
+  		<class name = "backbase.CreateOperation.TC07_Create_CreateNewComputer_DiscontinueDate_InvalidFormat" />
+  		<class name = "backbase.CreateOperation.TC08_Create_CreateNewComputer_ComputerNameSpecialChar" />
+  		<class name = "backbase.UpdateOperation.TC01_Update_ValidateAutoPopulatedScreen" />
+  		<class name = "backbase.UpdateOperation.TC02_Update_UpdateComputerName" />
+  		<class name = "backbase.UpdateOperation.TC02_Update_UpdateComputerName" />
+  		<class name = "backbase.DeleteOperation.TC01_Delete_deleteReocords" />
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

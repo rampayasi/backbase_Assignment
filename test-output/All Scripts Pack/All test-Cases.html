@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  All test-Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All test-Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 09 22:42:40 BST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>116 seconds (116262 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='backbase.CreateOperation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation()'><b>TC01_Create_UIValidation_NavigationFlowAndFieldValidation</b><br>Test class: backbase.CreateOperation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation</td>
+<td></td>
+<td>4</td>
+<td>backbase.CreateOperation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation@6e005dc9</td></tr>
+<tr>
+<td title='backbase.DeleteOperation.TC01_Delete_deleteReocords.TC01_Delete_deleteReocords()'><b>TC01_Delete_deleteReocords</b><br>Test class: backbase.DeleteOperation.TC01_Delete_deleteReocords</td>
+<td></td>
+<td>1</td>
+<td>backbase.DeleteOperation.TC01_Delete_deleteReocords@20f5281c</td></tr>
+<tr>
+<td title='backbase.ReadOperation.TC01_Search_UIValidation_SearchRecordTable.TC01_Search_UIValidation_SearchRecordTable()'><b>TC01_Search_UIValidation_SearchRecordTable</b><br>Test class: backbase.ReadOperation.TC01_Search_UIValidation_SearchRecordTable</td>
+<td></td>
+<td>1</td>
+<td>backbase.ReadOperation.TC01_Search_UIValidation_SearchRecordTable@2d6c53fc</td></tr>
+<tr>
+<td title='backbase.UpdateOperation.TC01_Update_ValidateAutoPopulatedScreen.TC01_Update_ValidateAutoPopulatedScreen()'><b>TC01_Update_ValidateAutoPopulatedScreen</b><br>Test class: backbase.UpdateOperation.TC01_Update_ValidateAutoPopulatedScreen</td>
+<td></td>
+<td>8</td>
+<td>backbase.UpdateOperation.TC01_Update_ValidateAutoPopulatedScreen@5b67bb7e</td></tr>
+<tr>
+<td title='backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly.TC02_Create_CreateNewComputer()'><b>TC02_Create_CreateNewComputer</b><br>Test class: backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly</td>
+<td></td>
+<td>7</td>
+<td>backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly@7ceb3185</td></tr>
+<tr>
+<td title='backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton.TC02_Search_UIValidation_SearchFieldAndButton()'><b>TC02_Search_UIValidation_SearchFieldAndButton</b><br>Test class: backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton</td>
+<td></td>
+<td>0</td>
+<td>backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton@25f4878b</td></tr>
+<tr>
+<td title='backbase.UpdateOperation.TC02_Update_UpdateComputerName.TC02_Update_UpdateComputerName()'><b>TC02_Update_UpdateComputerName</b><br>Test class: backbase.UpdateOperation.TC02_Update_UpdateComputerName</td>
+<td></td>
+<td>11</td>
+<td>backbase.UpdateOperation.TC02_Update_UpdateComputerName@609db546</td></tr>
+<tr>
+<td title='backbase.CreateOperation.TC03_Create_CreateNewComputerwithAllTheField.TC03_Create_CreateNewComputerwithAllTheField()'><b>TC03_Create_CreateNewComputerwithAllTheField</b><br>Test class: backbase.CreateOperation.TC03_Create_CreateNewComputerwithAllTheField</td>
+<td></td>
+<td>5</td>
+<td>backbase.CreateOperation.TC03_Create_CreateNewComputerwithAllTheField@436c81a3</td></tr>
+<tr>
+<td title='backbase.ReadOperation.TC03_Search_UIValidation_AddNewComputer.TC03_Search_UIValidation_AddNewComputer()'><b>TC03_Search_UIValidation_AddNewComputer</b><br>Test class: backbase.ReadOperation.TC03_Search_UIValidation_AddNewComputer</td>
+<td></td>
+<td>0</td>
+<td>backbase.ReadOperation.TC03_Search_UIValidation_AddNewComputer@4e423aa2</td></tr>
+<tr>
+<td title='backbase.CreateOperation.TC04_Create_CreateNewComputerWithoutAnyData_Error.TC04_Create_CreateNewComputerWithoutAnyData_Error()'><b>TC04_Create_CreateNewComputerWithoutAnyData_Error</b><br>Test class: backbase.CreateOperation.TC04_Create_CreateNewComputerWithoutAnyData_Error</td>
+<td></td>
+<td>1</td>
+<td>backbase.CreateOperation.TC04_Create_CreateNewComputerWithoutAnyData_Error@3561c410</td></tr>
+<tr>
+<td title='backbase.ReadOperation.TC04_Search_UIValidation_RecordCountValidation.TC04_Search_UIValidation_RecordCountValidation()'><b>TC04_Search_UIValidation_RecordCountValidation</b><br>Test class: backbase.ReadOperation.TC04_Search_UIValidation_RecordCountValidation</td>
+<td></td>
+<td>0</td>
+<td>backbase.ReadOperation.TC04_Search_UIValidation_RecordCountValidation@7fbdb894</td></tr>
+<tr>
+<td title='backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount.TC05_Create_CreateNewComputer_ValidateCount()'><b>TC05_Create_CreateNewComputer_ValidateCount</b><br>Test class: backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount</td>
+<td></td>
+<td>8</td>
+<td>backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount@59e32960</td></tr>
+<tr>
+<td title='backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName.TC05_Search_UIValidation_SearchComputerName()'><b>TC05_Search_UIValidation_SearchComputerName</b><br>Test class: backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName</td>
+<td></td>
+<td>4</td>
+<td>backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName@3081f72c</td></tr>
+<tr>
+<td title='backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount.TC06_Create_CreateNewComputer_SearchCreatedEntry()'><b>TC06_Create_CreateNewComputer_SearchCreatedEntry</b><br>Test class: backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount</td>
+<td></td>
+<td>0</td>
+<td>backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount@59e32960</td></tr>
+<tr>
+<td title='backbase.ReadOperation.TC06_Search_UIValidation_CancelSearch.TC06_Search_UIValidation_CancelSearch()'><b>TC06_Search_UIValidation_CancelSearch</b><br>Test class: backbase.ReadOperation.TC06_Search_UIValidation_CancelSearch</td>
+<td></td>
+<td>7</td>
+<td>backbase.ReadOperation.TC06_Search_UIValidation_CancelSearch@3148f668</td></tr>
+<tr>
+<td title='backbase.CreateOperation.TC08_Create_CreateNewComputer_ComputerNameSpecialChar.TC08_Create_CreateNewComputer_ComputerNameSpecialChar()'><b>TC08_Create_CreateNewComputer_ComputerNameSpecialChar</b><br>Test class: backbase.CreateOperation.TC08_Create_CreateNewComputer_ComputerNameSpecialChar</td>
+<td></td>
+<td>8</td>
+<td>backbase.CreateOperation.TC08_Create_CreateNewComputer_ComputerNameSpecialChar@7c214cc0</td></tr>
+</table><p>
+</body>
+</html>

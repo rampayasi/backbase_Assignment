@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-09T21:42:40Z" name="All Scripts Pack" finished-at="2021-08-09T21:44:36Z" duration-ms="116262">
+    <groups>
+      <group name="SearchFunction">
+        <method signature="TC05_Search_UIValidation_SearchComputerName.TC05_Search_UIValidation_SearchComputerName()[pri:0, instance:backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName@3081f72c]" name="TC05_Search_UIValidation_SearchComputerName" class="backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName"/>
+      </group> <!-- SearchFunction -->
+    </groups>
+    <test started-at="2021-08-09T21:42:40Z" name="All test-Cases" finished-at="2021-08-09T21:44:36Z" duration-ms="116262">
+      <class name="backbase.ReadOperation.TC04_Search_UIValidation_RecordCountValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.ReadOperation.TC04_Search_UIValidation_RecordCountValidation@7fbdb894]" started-at="2021-08-09T21:43:29Z" name="setup" finished-at="2021-08-09T21:43:31Z" duration-ms="1774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC04_Search_UIValidation_RecordCountValidation()[pri:0, instance:backbase.ReadOperation.TC04_Search_UIValidation_RecordCountValidation@7fbdb894]" started-at="2021-08-09T21:43:31Z" name="TC04_Search_UIValidation_RecordCountValidation" finished-at="2021-08-09T21:43:31Z" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_Search_UIValidation_RecordCountValidation -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.ReadOperation.TC04_Search_UIValidation_RecordCountValidation@7fbdb894]" started-at="2021-08-09T21:43:31Z" name="tierDown" finished-at="2021-08-09T21:43:32Z" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.ReadOperation.TC04_Search_UIValidation_RecordCountValidation -->
+      <class name="backbase.ReadOperation.TC06_Search_UIValidation_CancelSearch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.ReadOperation.TC06_Search_UIValidation_CancelSearch@3148f668]" started-at="2021-08-09T21:43:44Z" name="setup" finished-at="2021-08-09T21:43:46Z" duration-ms="1799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC06_Search_UIValidation_CancelSearch()[pri:0, instance:backbase.ReadOperation.TC06_Search_UIValidation_CancelSearch@3148f668]" started-at="2021-08-09T21:43:46Z" name="TC06_Search_UIValidation_CancelSearch" finished-at="2021-08-09T21:43:53Z" duration-ms="7774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_Search_UIValidation_CancelSearch -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.ReadOperation.TC06_Search_UIValidation_CancelSearch@3148f668]" started-at="2021-08-09T21:43:53Z" name="tierDown" finished-at="2021-08-09T21:43:54Z" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.ReadOperation.TC06_Search_UIValidation_CancelSearch -->
+      <class name="backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount@59e32960]" started-at="2021-08-09T21:44:24Z" name="setup" finished-at="2021-08-09T21:44:26Z" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC05_Create_CreateNewComputer_ValidateCount()[pri:0, instance:backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount@59e32960]" started-at="2021-08-09T21:44:26Z" name="TC05_Create_CreateNewComputer_ValidateCount" finished-at="2021-08-09T21:44:35Z" duration-ms="8478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_Create_CreateNewComputer_ValidateCount -->
+        <test-method signature="TC06_Create_CreateNewComputer_SearchCreatedEntry()[pri:0, instance:backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount@59e32960]" started-at="2021-08-09T21:44:35Z" name="TC06_Create_CreateNewComputer_SearchCreatedEntry" finished-at="2021-08-09T21:44:36Z" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_Create_CreateNewComputer_SearchCreatedEntry -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount@59e32960]" started-at="2021-08-09T21:44:36Z" name="tierDown" finished-at="2021-08-09T21:44:36Z" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.CreateOperation.TC05_Create_CreateNewComputer_ValidateCount -->
+      <class name="backbase.CreateOperation.TC04_Create_CreateNewComputerWithoutAnyData_Error">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.CreateOperation.TC04_Create_CreateNewComputerWithoutAnyData_Error@3561c410]" started-at="2021-08-09T21:44:20Z" name="setup" finished-at="2021-08-09T21:44:22Z" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC04_Create_CreateNewComputerWithoutAnyData_Error()[pri:0, instance:backbase.CreateOperation.TC04_Create_CreateNewComputerWithoutAnyData_Error@3561c410]" started-at="2021-08-09T21:44:22Z" name="TC04_Create_CreateNewComputerWithoutAnyData_Error" finished-at="2021-08-09T21:44:24Z" duration-ms="1795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_Create_CreateNewComputerWithoutAnyData_Error -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.CreateOperation.TC04_Create_CreateNewComputerWithoutAnyData_Error@3561c410]" started-at="2021-08-09T21:44:24Z" name="tierDown" finished-at="2021-08-09T21:44:24Z" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.CreateOperation.TC04_Create_CreateNewComputerWithoutAnyData_Error -->
+      <class name="backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly@7ceb3185]" started-at="2021-08-09T21:44:01Z" name="setup" finished-at="2021-08-09T21:44:03Z" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC02_Create_CreateNewComputer()[pri:0, instance:backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly@7ceb3185]" started-at="2021-08-09T21:44:03Z" name="TC02_Create_CreateNewComputer" finished-at="2021-08-09T21:44:11Z" duration-ms="7636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Create_CreateNewComputer -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly@7ceb3185]" started-at="2021-08-09T21:44:11Z" name="tierDown" finished-at="2021-08-09T21:44:12Z" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly -->
+      <class name="backbase.CreateOperation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.CreateOperation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation@6e005dc9]" started-at="2021-08-09T21:43:54Z" name="setup" finished-at="2021-08-09T21:43:56Z" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_Create_UIValidation_NavigationFlowAndFieldValidation()[pri:0, instance:backbase.CreateOperation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation@6e005dc9]" started-at="2021-08-09T21:43:56Z" name="TC01_Create_UIValidation_NavigationFlowAndFieldValidation" finished-at="2021-08-09T21:44:01Z" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Create_UIValidation_NavigationFlowAndFieldValidation -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.CreateOperation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation@6e005dc9]" started-at="2021-08-09T21:44:01Z" name="tierDown" finished-at="2021-08-09T21:44:01Z" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.CreateOperation.TC01_Create_UIValidation_NavigationFlowAndFieldValidation -->
+      <class name="backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton@25f4878b]" started-at="2021-08-09T21:42:57Z" name="setup" finished-at="2021-08-09T21:42:58Z" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC02_Search_UIValidation_SearchFieldAndButton()[pri:0, instance:backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton@25f4878b]" started-at="2021-08-09T21:42:58Z" name="TC02_Search_UIValidation_SearchFieldAndButton" finished-at="2021-08-09T21:42:59Z" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Search_UIValidation_SearchFieldAndButton -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton@25f4878b]" started-at="2021-08-09T21:42:59Z" name="tierDown" finished-at="2021-08-09T21:43:00Z" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton -->
+      <class name="backbase.UpdateOperation.TC01_Update_ValidateAutoPopulatedScreen">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.UpdateOperation.TC01_Update_ValidateAutoPopulatedScreen@5b67bb7e]" started-at="2021-08-09T21:43:00Z" name="setup" finished-at="2021-08-09T21:43:02Z" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_Update_ValidateAutoPopulatedScreen()[pri:0, instance:backbase.UpdateOperation.TC01_Update_ValidateAutoPopulatedScreen@5b67bb7e]" started-at="2021-08-09T21:43:02Z" name="TC01_Update_ValidateAutoPopulatedScreen" finished-at="2021-08-09T21:43:10Z" duration-ms="8007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Update_ValidateAutoPopulatedScreen -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.UpdateOperation.TC01_Update_ValidateAutoPopulatedScreen@5b67bb7e]" started-at="2021-08-09T21:43:10Z" name="tierDown" finished-at="2021-08-09T21:43:11Z" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.UpdateOperation.TC01_Update_ValidateAutoPopulatedScreen -->
+      <class name="backbase.CreateOperation.TC03_Create_CreateNewComputerwithAllTheField">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.CreateOperation.TC03_Create_CreateNewComputerwithAllTheField@436c81a3]" started-at="2021-08-09T21:44:12Z" name="setup" finished-at="2021-08-09T21:44:13Z" duration-ms="1766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC03_Create_CreateNewComputerwithAllTheField()[pri:0, instance:backbase.CreateOperation.TC03_Create_CreateNewComputerwithAllTheField@436c81a3]" started-at="2021-08-09T21:44:13Z" name="TC03_Create_CreateNewComputerwithAllTheField" finished-at="2021-08-09T21:44:19Z" duration-ms="5639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_Create_CreateNewComputerwithAllTheField -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.CreateOperation.TC03_Create_CreateNewComputerwithAllTheField@436c81a3]" started-at="2021-08-09T21:44:19Z" name="tierDown" finished-at="2021-08-09T21:44:20Z" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.CreateOperation.TC03_Create_CreateNewComputerwithAllTheField -->
+      <class name="backbase.ReadOperation.TC01_Search_UIValidation_SearchRecordTable">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.ReadOperation.TC01_Search_UIValidation_SearchRecordTable@2d6c53fc]" started-at="2021-08-09T21:42:40Z" name="setup" finished-at="2021-08-09T21:42:43Z" duration-ms="2539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_Search_UIValidation_SearchRecordTable()[pri:0, instance:backbase.ReadOperation.TC01_Search_UIValidation_SearchRecordTable@2d6c53fc]" started-at="2021-08-09T21:42:43Z" name="TC01_Search_UIValidation_SearchRecordTable" finished-at="2021-08-09T21:42:44Z" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Search_UIValidation_SearchRecordTable -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.ReadOperation.TC01_Search_UIValidation_SearchRecordTable@2d6c53fc]" started-at="2021-08-09T21:42:44Z" name="tierDown" finished-at="2021-08-09T21:42:45Z" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.ReadOperation.TC01_Search_UIValidation_SearchRecordTable -->
+      <class name="backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName@3081f72c]" started-at="2021-08-09T21:43:37Z" name="setup" finished-at="2021-08-09T21:43:39Z" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC05_Search_UIValidation_SearchComputerName()[pri:0, instance:backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName@3081f72c]" started-at="2021-08-09T21:43:39Z" name="TC05_Search_UIValidation_SearchComputerName" finished-at="2021-08-09T21:43:43Z" duration-ms="4421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_Search_UIValidation_SearchComputerName -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName@3081f72c]" started-at="2021-08-09T21:43:43Z" name="tierDown" finished-at="2021-08-09T21:43:44Z" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName -->
+      <class name="backbase.CreateOperation.TC08_Create_CreateNewComputer_ComputerNameSpecialChar">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.CreateOperation.TC08_Create_CreateNewComputer_ComputerNameSpecialChar@7c214cc0]" started-at="2021-08-09T21:42:45Z" name="setup" finished-at="2021-08-09T21:42:47Z" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC08_Create_CreateNewComputer_ComputerNameSpecialChar()[pri:0, instance:backbase.CreateOperation.TC08_Create_CreateNewComputer_ComputerNameSpecialChar@7c214cc0]" started-at="2021-08-09T21:42:47Z" name="TC08_Create_CreateNewComputer_ComputerNameSpecialChar" finished-at="2021-08-09T21:42:56Z" duration-ms="8606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_Create_CreateNewComputer_ComputerNameSpecialChar -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.CreateOperation.TC08_Create_CreateNewComputer_ComputerNameSpecialChar@7c214cc0]" started-at="2021-08-09T21:42:56Z" name="tierDown" finished-at="2021-08-09T21:42:57Z" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.CreateOperation.TC08_Create_CreateNewComputer_ComputerNameSpecialChar -->
+      <class name="backbase.ReadOperation.TC03_Search_UIValidation_AddNewComputer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.ReadOperation.TC03_Search_UIValidation_AddNewComputer@4e423aa2]" started-at="2021-08-09T21:43:11Z" name="setup" finished-at="2021-08-09T21:43:13Z" duration-ms="1726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC03_Search_UIValidation_AddNewComputer()[pri:0, instance:backbase.ReadOperation.TC03_Search_UIValidation_AddNewComputer@4e423aa2]" started-at="2021-08-09T21:43:13Z" name="TC03_Search_UIValidation_AddNewComputer" finished-at="2021-08-09T21:43:13Z" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_Search_UIValidation_AddNewComputer -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.ReadOperation.TC03_Search_UIValidation_AddNewComputer@4e423aa2]" started-at="2021-08-09T21:43:13Z" name="tierDown" finished-at="2021-08-09T21:43:14Z" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.ReadOperation.TC03_Search_UIValidation_AddNewComputer -->
+      <class name="backbase.DeleteOperation.TC01_Delete_deleteReocords">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.DeleteOperation.TC01_Delete_deleteReocords@20f5281c]" started-at="2021-08-09T21:43:32Z" name="setup" finished-at="2021-08-09T21:43:34Z" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_Delete_deleteReocords()[pri:0, instance:backbase.DeleteOperation.TC01_Delete_deleteReocords@20f5281c]" started-at="2021-08-09T21:43:34Z" name="TC01_Delete_deleteReocords" finished-at="2021-08-09T21:43:36Z" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Delete_deleteReocords -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.DeleteOperation.TC01_Delete_deleteReocords@20f5281c]" started-at="2021-08-09T21:43:36Z" name="tierDown" finished-at="2021-08-09T21:43:37Z" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.DeleteOperation.TC01_Delete_deleteReocords -->
+      <class name="backbase.UpdateOperation.TC02_Update_UpdateComputerName">
+        <test-method is-config="true" signature="setup()[pri:0, instance:backbase.UpdateOperation.TC02_Update_UpdateComputerName@609db546]" started-at="2021-08-09T21:43:14Z" name="setup" finished-at="2021-08-09T21:43:16Z" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC02_Update_UpdateComputerName()[pri:0, instance:backbase.UpdateOperation.TC02_Update_UpdateComputerName@609db546]" started-at="2021-08-09T21:43:16Z" name="TC02_Update_UpdateComputerName" finished-at="2021-08-09T21:43:28Z" duration-ms="11924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Update_UpdateComputerName -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:backbase.UpdateOperation.TC02_Update_UpdateComputerName@609db546]" started-at="2021-08-09T21:43:28Z" name="tierDown" finished-at="2021-08-09T21:43:29Z" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- backbase.UpdateOperation.TC02_Update_UpdateComputerName -->
+    </test> <!-- All test-Cases -->
+  </suite> <!-- All Scripts Pack -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="backbase.Utilties.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="backbase.UpdateOperation.TC02_Update_UpdateComputerName">
+        <methods>
+          <include name="setup"/>
+          <include name="TC02_Update_UpdateComputerName"/>
+          <include name="tierDown"/>
+        </methods>
+      </class> <!-- backbase.UpdateOperation.TC02_Update_UpdateComputerName -->
+      <class name="backbase.DeleteOperation.TC01_Delete_deleteReocords">
+        <methods>
+          <include name="TC01_Delete_deleteReocords"/>
+          <include name="setup"/>
+          <include name="tierDown"/>
+        </methods>
+      </class> <!-- backbase.DeleteOperation.TC01_Delete_deleteReocords -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

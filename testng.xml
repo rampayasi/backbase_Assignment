@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <listeners>
+  
+  <listener class-name="backbase.Utilties.Reporting"/>
+  </listeners>
+  
+  
+  <test thread-count="5" name="Test">  
+  	<classes>
+  		<class name = "backbase.ReadOperation.TC02_Search_UIValidation_SearchFieldAndButton" />
+  		<class name = "backbase.CreateOperation.TC02_Create_CreateNewComputerWithNameOnly" />
+  		<class name = "backbase.ReadOperation.TC05_Search_UIValidation_SearchComputerName" />
+		<class name = "backbase.UpdateOperation.TC02_Update_UpdateComputerName" />
+		<class name = "backbase.DeleteOperation.TC01_Delete_deleteReocords" />
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
